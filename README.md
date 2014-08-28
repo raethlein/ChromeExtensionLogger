@@ -8,6 +8,7 @@ Use this logger in BackgroundScripts, ContentScripts or Popup-Scripts and receiv
 
 Just add BackgroundLogger and ContentLogger to your extension's manifest. (These scripts have to be included before ChromeLogger.log is used in any other script.)
 
+<b>Example:</b>
 <pre><code>
 ChromeLogger.log("Log this text");
 </code></pre><br/>
