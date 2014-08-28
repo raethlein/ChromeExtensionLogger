@@ -19,7 +19,7 @@
             return todayConsoleFormat = '[' + mm + '/' + dd + '/' + yyyy + ' ' + hours + ':' + mins + ':' + secs + ']: ';
         },
         log: function(sender, message) {
-            console.log(sender + Internal.getDate() + ": " + message);
+            console.log(sender + Internal.getDate() + message);
         }
     };
 
